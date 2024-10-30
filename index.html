@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio | Fairuz Ziyaad</title>
+    <!-- icon -->
+     <link rel="icon" href="img/icon.jpg">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        emailjs.init("YOUR_PUBLIC_KEY"); // Ganti dengan public key EmailJS Anda
+      })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Fairuz Ziyaad</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumnotron -->
+    <section class="jumbotron text-center">
+      <img src="img/mukaiyus.jpg" alt="Fairuz Ziyaad Purnomo" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Fairuz Ziyaad Purnomo</h1>
+      <p class="lead">Students of Telesandi Telecommunications Vocational School</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L40,32C80,32,160,32,240,74.7C320,117,400,203,480,213.3C560,224,640,160,720,160C800,160,880,224,960,218.7C1040,213,1120,139,1200,112C1280,85,1360,107,1400,117.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!-- End Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col text-center">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Hai!, Nama saya Fairuz, Saya siswa kelas 10 di SMK Telekomunikasi Telesandi Bekasi, Jurusan saya adalah Rekayasa Perangkat Lunak.</p>
+          </div>
+          <div class="col-md-4">
+            Saya memiliki minat khusus dalam teknologi, Baik itu coding, desain, atau mengeksplorasi perangkat baru, saya menikmati tetap terupdate mengenai perkembangan teknologi yang terus berubah.
+          </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,32L40,69.3C80,107,160,181,240,208C320,235,400,213,480,192C560,171,640,149,720,128C800,107,880,85,960,106.7C1040,128,1120,192,1200,181.3C1280,171,1360,85,1400,42.7L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!-- End About -->
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3"> 
+            <div class="card">
+              <img src="img/projects/1.jpeg" class="card-img-top" alt="Projects1">
+              <div class="card-body">
+                <p class="card-text">-</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3"> 
+            <div class="card">
+              <img src="img/projects/2.jpeg" class="card-img-top" alt="Projects2">
+              <div class="card-body">
+                <p class="card-text">-</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3"> 
+            <div class="card">
+              <img src="img/projects/3.jpeg" class="card-img-top" alt="Projects3">
+              <div class="card-body">
+                <p class="card-text">-</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3"> 
+            <div class="card">
+              <img src="img/projects/4.jpeg" class="card-img-top" alt="Projects4">
+              <div class="card-body">
+                <p class="card-text">-</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3"> 
+            <div class="card">
+              <img src="img/projects/5.jpeg" class="card-img-top" alt="Projects5">
+              <div class="card-body">
+                <p class="card-text">Belum punya projek cuy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L40,149.3C80,171,160,213,240,224C320,235,400,213,480,202.7C560,192,640,192,720,208C800,224,880,256,960,261.3C1040,267,1120,245,1200,234.7C1280,224,1360,224,1400,224L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!-- End Projects -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form id="contactForm" onsubmit="sendEmail(event)">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" name="message" rows="6" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,176C320,171,400,117,480,106.7C560,96,640,128,720,154.7C800,181,880,203,960,192C1040,181,1120,139,1200,128C1280,117,1360,139,1400,149.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      </section>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center pb-5">
+      <p>Created by <a href="https://instagram.com/zyaadp?igshid=OGQ5ZDc2ODk2ZA==" class="text-white fw-bold">Fairuz</a></p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
